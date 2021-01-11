@@ -1,0 +1,109 @@
+.top-nav-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.navbar {
+    color: #fff;
+    background: #6c63ff;
+    padding: 5px 16px;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    justify-content: flex-end
+}
+.navbar img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+.navbar .navbar-brand {
+    color: #efe5ff;
+    padding-left: 0;
+    padding-right: 50px;
+    font-size: 24px;
+}
+.navbar ul li i {
+    font-size: 18px;
+}
+.navbar .nav-item span {
+    position: relative;
+    top: 3px;
+}
+.navbar .nav > li a {
+    color: #efe5ff;
+    padding: 8px 15px;
+    font-size: 14px;		
+}
+.navbar .nav > li a:hover, .navbar .nav > li a:focus {
+    color: #fff;
+    text-shadow: 0 0 4px rgba(255,255,255,0.3);
+    text-decoration: none;
+}
+.navbar .nav > li > a > i {
+    display: block;
+    text-align: center;
+}
+.navbar .dropdown-menu i {
+    font-size: 16px;
+    min-width: 22px;
+}
+.navbar .dropdown-menu {
+    border-radius: 1px;
+    border-color: #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu li a {
+    color: #777 !important;
+    padding: 8px 20px;
+    line-height: normal;
+}
+.navbar .dropdown-text {
+    color: #777 !important;
+    font-size: 12px;
+    padding: 8px 20px;
+    line-height: normal;
+}
+.navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a:focus {
+    color: #333 !important;
+    background: transparent !important;
+}
+.navbar .nav .active a, .navbar .nav .active a:hover, .navbar .nav .active a:focus {
+    color: #fff;
+    text-shadow: 0 0 4px rgba(255,255,255,0.2);
+    background: transparent !important;
+}
+
+.navbar .divider {
+   background-color:  #000;
+}
+@media (max-width: 1199px){
+    .navbar .nav > li > a > i {
+        display: inline-block;			
+        text-align: left;
+        min-width: 30px;
+        position: relative;
+        top: 4px;
+    }
+    .navbar .navbar-form {
+        border: none;			
+        display: block;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .navbar .navbar-nav {
+        margin: 8px 0;
+    }
+}
+.logout-button{
+    text-decoration: none;
+    padding: 0px 20px;
+}

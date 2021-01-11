@@ -24,9 +24,17 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/medium-editor/dist/css/medium-editor.min.css",
+              "node_modules/medium-editor/dist/css/themes/default.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/medium-editor/dist/js/medium-editor.min.js"
+            ],
+            "allowedCommonJsDependencies": ["medium-editor"]
           },
           "configurations": {
             "production": {
@@ -117,8 +125,13 @@
               "devServerTarget": "pencil-fe-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "pencil-fe-app"
 }

@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8fafb;
+}
+
+.content {
+  padding: 7rem 0;
+}
+@media (max-width: 991.98px) {
+  .content {
+    padding: 2rem 0;
+  }
+}
+
+h2 {
+  font-size: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .content .bg {
+    height: 500px;
+  }
+}
+
+.content .contents,
+.content .bg {
+  width: 50%;
+}
+
+@media (max-width: 1199.98px) {
+
+  .content .contents,
+  .content .bg {
+    width: 100%;
+  }
+}
+
+
+.content .bg {
+  background-size: cover;
+  background-position: center;
+}
+
+.content a {
+  color: #000;
+  text-decoration: none;
+}
+
+latex-js {
+  display: inline-block;
+  margin-right: .5em;
+}
+
+.form-group .editor p {
+  margin-bottom: .2px !important;
+}

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "pencil-fe-app": {
+      "hosting": {
+        "pencil-fe-app": [
+          "pencil-fe-app"
+        ]
+      }
+    }
+  }
+}

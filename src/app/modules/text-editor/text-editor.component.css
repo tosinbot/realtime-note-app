@@ -1,0 +1,35 @@
+.form-group {
+  overflow: hidden;
+  margin-bottom: 0;
+  padding: 15px 15px;
+  border-bottom: none;
+  position: relative;
+  background: #edf2f5;
+  border-bottom: 1px solid #e6edf1;
+}
+
+.form-group .editor {
+  background: transparent;
+  width: 100%;
+  color: #000;
+  font-size: medium;
+  height: 350px;
+}
+.form-group .editor p {
+  margin-bottom: 1.5px !important;
+}
+
+p i {
+  color: #000;
+}
+
+.container [contenteditable="true"]:focus {
+  outline: none;
+}
+
+.date-text {
+  width: 100%;
+  padding-right: 20px;
+  text-align: right;
+  font-size: smaller;
+}
