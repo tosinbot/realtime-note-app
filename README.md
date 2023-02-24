@@ -1,4 +1,4 @@
-## Pencil Frontend Application
+## Realtime Note Application
 An Angular 8+ application that uses Firebase to support authentication, allows users sign in with Google accounts to access text editor automatically synced to firebase. Text editor also supports LaTeX equations.
 
 #### Built With
@@ -10,7 +10,7 @@ An Angular 8+ application that uses Firebase to support authentication, allows u
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/tosinbot/pencil-fe-app.git
+   git clone https://github.com/tosinbot/realtime-note-app.git
    ```
 2. Install NPM packages
    ```sh
