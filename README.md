@@ -18,6 +18,11 @@ An Angular 8+ application that uses Firebase to support authentication, allows u
 3. Start the server with `ng serve`
 4. View on browser - http://localhost:4200
 
+
+### Integration
+Backend application built with Node.js and Mongodb can be found here - https://github.com/tosinbot/realtime-notes-backend
+
+
 ### Hosted sample App
 The app is hosted on Firebase
 - Access the App via https://tosin-pencil.web.app/ or  https://tosin-pencil.firebaseapp.com/
